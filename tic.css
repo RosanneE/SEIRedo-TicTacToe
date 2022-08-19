@@ -1,13 +1,17 @@
 
-*{
-    color: blueviolet;
-}
-h1{
-    color: red;
+body{
+    text-align: center;
+    align-items: center;
 }
 
 .tic{
+    height: 200px;
+    width: 200px;
     background-color: aqua;
     color: blueviolet;
-    font-size: 200px;
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
 }
